@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "node-A",
+      "ddst": {
+        "node-B": 50,
+        "node-D": 100
+      }
+    },
+    {
+      "id": "node-B",
+      "ddst": {
+        "node-D": 40
+      }
+    },
+    {
+      "id": "node-C",
+      "ddst": {
+        "node-A": 50,
+        "node-E": 80
+      }
+    },
+    {
+      "id": "node-D",
+      "ddst": {
+        "node-C": 40,
+        "node-E": 30,
+        "node-F": 80
+      }
+    },
+    {
+      "id": "node-E",
+      "ddst": {
+        "node-F": 40,
+        "node-G": 60
+      }
+    },
+    {
+      "id": "node-F",
+      "ddst": {
+        "node-A": 150,
+        "node-B": 60
+      }
+    },
+    {
+      "id": "node-G",
+      "ddst": {
+        "node-A": 90,
+        "node-C": 40
+      }
+    }
+  ]
+}

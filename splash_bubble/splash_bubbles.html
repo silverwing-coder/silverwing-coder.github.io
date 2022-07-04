@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Canvas_Bubble Size Change</title>
+    <link rel="stylesheet" type="text/css" href="splash_bubble.css" />
+  </head>
+  <body id="splash_bubble_body">
+    <div class="wrapper">
+      <div>
+        <img class="splash_bubble_img" src="../images/3.jpg" alt="MY_PHOTO" style="width:150px" />
+      </div>
+
+      <div class="head_info">
+        <h3 id="splash_bubble_h3">If you <em>"Click a BUBBLE" </em>, it will splash into small bubbles. <br>
+          Try to Splash a bubble before it becomes too big, and Just Kill your Time.</h3>
+        <div>
+          <button class="splash_bubble_button" onclick="setStartCondition()">SET ENV'</button>
+          <button class="splash_bubble_button" onclick="startGame( )">START PLAY</button>
+        </div>
+      </div>
+      <div>
+        <form action="#">
+          <!--
+          <label for="range_size">Initial Bubble Size</label><br />
+          <label>( 10px ~ 30px ) </label>
+          <input
+            type="range"
+            id="range_size"
+            list="size_tickmarks"
+            min="10"
+            max="30"
+            step="5"
+          />
+          <datalist id="size_tickmarks">
+            <option value="10"></option>
+            <option value="15"></option>
+            <option value="20"></option>
+            <option value="25"></option>
+            <option value="30"></option></datalist
+          ><br /><br /><br />
+          <label for="range_speed">Bubble Speed</label><br />
+          <label>( 1 ~ 3 times ) </label><br />
+          <input
+            type="range"
+            id="range_speed"
+            list="speed_tickmarks"
+            min="1"
+            max="3"
+            step="1"
+          />
+          <datalist id="speed_tickmarks">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option></datalist><br /><br /><br />
+          -->
+          <label class="splash_bubble_label" for="select_number">Initial # of Bubbles </label><br />
+          <select name="number_of_bubbles" id="number_bubbles">
+            <option value="3by4">3 x 4</option>
+            <option value="4by5">4 x 5</option>
+            <option value="5by6">5 x 6</option>
+          </select><br><br><br>
+          <label class="splash_bubble_label" for="canvas_size">Canvas Size </label><br />
+          <select name="canvas_size" id="canvas_size">
+            <option value="640by480">640 x 480 px</option>
+            <option value="1024by768">1024 x 768</option>
+          </select>
+        </form>
+      </div>
+      <div>
+        <canvas id="splash_bubble_canvas"></canvas>
+      </div>
+    </div>
+    <script type="text/javascript" src="splash_bubbles.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import CDN libraries -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- import internal libraries -->
+    <script type="text/babel" src="./index/header.js"></script>
+    <script type="text/babel" src="./index/contents.js"></script>
+    <script type="text/babel" src="./index/contents_section_edex.js"></script>
+    <script type="text/babel" src="./index/contents_section_others.js"></script>
+    <script type="text/babel" src="./index/footer.js"></script>
+    <!-- import styles -->
+    <link rel="stylesheet" href="./index/header.css">
+    <link rel="stylesheet" href="./index/contents.css">
+    <link rel="stylesheet" href="./index/contents_section_edex.css">
+    <link rel="stylesheet" href="./index/contents_section_others.css">
+    <link rel="stylesheet" href="./index/footer.css">
+    <style type="text/css">
+        canvas {
+            border: 2px solid black;
+        }
+    </style>
+    <title>Home of Sangmork "SAM" Park</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript" src="./bubble_mouse/bubbles.js"></script>
+    <div id="root"></div>
+    <script type="text/babel" src="./index/index.js"></script>
+</body>
+</html>

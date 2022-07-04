@@ -1,0 +1,12 @@
+button {
+    width: 137px;
+    height: 3em;
+    color:blue;
+    font-weight: bolder;
+    font-size: small;
+    margin: 3px;
+}
+
+p {
+    font-size: 1.5em;
+}

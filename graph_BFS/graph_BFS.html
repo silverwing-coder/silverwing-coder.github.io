@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>P5 Project-1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <link rel="stylesheet" href="graph_BFS.css" />
+    <!--
+    <script src="javascript/p5.sound.min.js"></script>
+    <script src="javascript/sketch.js"></script>
+    -->
+  </head>
+  <body>
+    <h3 id = "developer">/* Coded by Sang M. Park */</h3>
+    <div id="first-div">
+      <h2 color="gray">
+        This is an Example of Graph to find <br />
+        either a <em>Minimun cost path</em> or a <em> Shortest path</em>
+      </h2>
+    </div>
+    <div id="second-div">
+      <label for="select_start" id="start_label">Select START Node </label>
+      <label for="select_end" id="end_label">Select END Node </label> <br />
+      <select id="select_start"></select>
+      <select id="select_end"></select>
+      <br />
+      <button id="min_cost_btn" onclick="bfs_min_cost()">
+        "BFS" <br />
+        MIN COST
+      </button>
+      <button id="short_path_btn" onclick="bfs_short_path()">
+        "BFS" <br />
+        SHORT PATH
+      </button>
+      <div><h3 id="min_cost"></h3></div>
+      <div><h3 id="shortest_path"></h3></div>
+    </div>
+    <script src="graph_BFS.js"></script>
+  </body>
+</html>

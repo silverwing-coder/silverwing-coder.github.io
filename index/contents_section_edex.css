@@ -1,0 +1,36 @@
+.content-section {
+    color: blue;
+}
+
+.edex-content {
+    display: flex;
+}
+.edex-year {
+    width: 250px;
+    /* background-color: aquamarine; */
+    color:darkblue;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.edex-comments {
+    width: 100%;
+    padding-left: 30px;
+    font-size: 18px;
+    color: blue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /* font-variant: small-caps; */
+    /* background-color: antiquewhite; */
+}
+.edex-title {
+    font-size: 19px;
+    font-weight: bolder;
+
+}
+.edex-place {
+    font-style:oblique;
+    color:blueviolet;
+}
+.edex-comment {
+    color: olive;
+    font-variant: normal;
+}

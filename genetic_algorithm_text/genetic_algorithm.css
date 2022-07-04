@@ -1,0 +1,49 @@
+body {
+  background-color: gainsboro;
+}
+#defaultCanvas0 {
+  margin: 0px 20px;
+  padding: 1px 1px;
+  border: 2px crimson solid;
+}
+p {
+  padding-left: 20px;
+  padding-top:  20px;
+  font-size: 20px;
+}
+input {
+  margin-top: 5px;
+}
+#target_text {
+  width: 600px;
+  height: 25px;
+  font-size: 18px;
+}
+#max_popu, #mut_rate{
+  width: 90px;
+  height: 25px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#reset_btn{
+  width: 150px;
+  height: 35px;
+  font: 20px bold;
+  background-color: aquamarine;
+}
+/*
+#best_gene,
+#rounds,
+#target,
+#genes {
+  font-family: "Courier";
+}
+
+#best_gene {
+  font-size: 48;
+}
+
+#rounds {
+  font-size: 24;
+}
+*/

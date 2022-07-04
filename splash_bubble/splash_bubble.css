@@ -1,0 +1,46 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.head_info {
+    text-align: left;
+    margin-left: 2em;
+}
+#splash_bubble_h3 {
+    color: blue;
+}
+#splash_bubble_canvas {
+    border: 3px solid blueviolet;
+    background-color: azure;
+}
+#splash_bubble_body {
+    margin: 0;
+    background-color: darkgray;
+}
+.splash_bubble_button {
+    height: 50px;
+    width: 150px;
+    margin-left: 100px;
+    font: 20px bolder;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.splash_bubble_label {
+    color: yellow;
+    font: 18px bolder;
+}
+.splash_bubble_img {
+    border: solid whitesmoke 1px;
+}
+#number_bubbles,
+#canvas_size {
+    width: 120px;
+    height: 30px;
+    align-content: flex-end;
+    color: blue;
+    font: 18px bolder;
+}

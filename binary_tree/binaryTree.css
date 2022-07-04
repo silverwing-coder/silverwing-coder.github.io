@@ -1,0 +1,24 @@
+#defaultCanvas0 {
+    margin: 20px 20px;
+    padding: 1px 1px;
+    border: 5px darkorange solid;
+}
+h1 {
+    margin: 20px 20px;
+    color: brown;
+}
+#source_data {
+    margin-left: 20px;
+    color: blue;
+}
+#sorted_data {
+    margin-left: 20px;
+    color: red;
+}
+#btn_referesh {
+    margin-left: 20px;
+    background-color: darkslategrey;
+    color: floralwhite;
+    padding: 12px 25px;
+    font-size: 16px;
+}

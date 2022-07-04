@@ -1,0 +1,95 @@
+body {
+  font-family: "Gelasio", serif;
+  background-color: gainsboro;
+}
+#container {
+  width: 1000px;
+  height: 550px;
+  background-image: url(../images/crown.jpg);
+  background-size: 1000px 550px;
+  margin: 20px 20px;
+  border-radius: 1%;
+}
+#calculator {
+  width: 320px;
+  height: 522px;
+  background-color: #d9f9d9;
+  margin: 10px 10px;
+  position: absolute;
+  top: 20px;
+  border-radius: 20px;
+  border: 2px darkgray solid;
+}
+#result {
+  height: 100px;
+}
+#history {
+  text-align: right;
+  height: 30px;
+  margin: 5 20px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: darkblue;
+}
+#output {
+  text-align: right;
+  height: 50px;
+  margin: -25px 15px;
+  font-size: 30px;
+  border-bottom: 2px darkcyan dotted;
+  border-radius: 2%;
+}
+#keyboard {
+  height: 400px;
+}
+.operator,
+.number,
+.empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: darkblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+.number,
+.empty {
+  background-color: #eaedef;
+}
+.number,
+.operator {
+  cursor: pointer;
+}
+.number:active,
+.operator:active {
+  font-size: 25px;
+  color: red;
+}
+.number:focus,
+.operator:focus,
+.empty:focus {
+  outline: 0;
+}
+button:nth-child(4) {
+  font-size: 20;
+  background-color: #20b2aa;
+}
+button:nth-child(8) {
+  font-size: 20;
+  background-color: #ffa500;
+}
+button:nth-child(12) {
+  font-size: 20;
+  background-color: #f08080;
+}
+button:nth-child(16) {
+  font-size: 20;
+  background-color: #7d93e0;
+}
+button:nth-child(20) {
+  font-size: 20;
+  background-color: #9477af;
+}

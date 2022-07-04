@@ -1,0 +1,43 @@
+body{
+    background-color: gainsboro;
+}
+em {
+    color: red;
+}
+#first-div{
+    margin-left: 20px;
+}
+#defaultCanvas0 {
+    margin: 0px 20px;
+    padding: 1px 1px;
+    border: 5px blue solid;
+}
+label {
+    margin-left: 70px;
+    width: 160px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color:darkblue;
+}
+select {
+    margin-left: 70px;
+    width: 190px;
+    height: 30px;
+    font-size: 18px;
+}
+button {
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
+    color: blue;
+    background-color: chartreuse;
+    border: 2px green solid;
+}
+h3 {
+    margin-left: 20px;
+    color: crimson;
+    font-size: 22px;
+}
