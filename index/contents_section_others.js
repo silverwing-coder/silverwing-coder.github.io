@@ -157,84 +157,85 @@ function WorkingProject_Section() {
                 <ul>
                     <li>
                         <em>Algorithm Demo:</em>{" "}
-                        {/* <a href="../a_star/a_star.html">A-star Path Finder</a>  */}
-                        <a href="https://github.com/silverwing-coder/WebApplications/blob/master/AstarAlgorithm/a_star.html">
+                        <a href="../AstarAlgorithm/a_star.html">
                             A-star Path Finder
                         </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>{" "}
-                        <a href="../sorting_algorithms/sorting_algorithms.html">
+                        <a href="../SortingAlgorithms/sorting_algorithms.html">
                             Sorting Algorithms
                         </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>{" "}
-                        <a href="../binary_tree/binaryTree.html">
-                            Binary Tree(DFS)
+                        <a href="../BinarySearchTree/binaryTree.html">
+                            Binary Search Tree(DFS)
                         </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>
-                        <a href="../graph_BFS/graph_BFS.html">Graph(BFS)</a>
+                        <a href="../DirectedGraph/graph_BFS.html">
+                            Directed Graph
+                        </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>{" "}
-                        <a href="../genetic_algorithm_text/genetic_algorithm.html">
+                        <a href="../GeneticAlgorithmText/genetic_algorithm.html">
                             Genetic Algorithm(Text Align)
                         </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>{" "}
-                        <a href="../genetic_algorithm_fish/genetic_alogrithm_fish.html">
+                        <a href="../GeneticAlgorithmAnimal/genetic_alogrithm_fish.html">
                             Genetic Algorithm(Fish Learning)
                         </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>
-                        <a href="../salesman_travel/salesman_travel.html">
+                        <a href="../SalesmanTravel/salesman_travel.html">
                             Salesman Travel
                         </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>
-                        <a href="../linear_regression/linear_regression.html">
+                        <a href="../LinearRegression/linear_regression.html">
                             Linear Regression
                         </a>
                     </li>
                     <li>
                         <em>Game:</em>
-                        <a href="../snake_eat_food/snake_eat_food.html">
+                        <a href="../SnakeFoodGame/snake_eat_food.html">
                             Snake Take Food
                         </a>
                     </li>
                     <li>
                         <em>Game:</em>
-                        <a href="../splash_bubble/splash_bubbles.html">
+                        <a href="../BubbleSplashsByMouse/splash_bubbles.html">
                             Splash Bubbles
                         </a>
                     </li>
                     <li>
                         <em>Utility:</em>
-                        <a href="../simple_calculator/simple_calculator.html">
+                        <a href="../SimpleCalculator/simple_calculator.html">
                             Simple Calculator
                         </a>
                     </li>
                     <li>
                         <em>Simulation:</em>{" "}
-                        <a href="../bubble_mouse/bubble_mouse.html">
+                        <a href="../BubbleSizeChangeByMouse/bubble_mouse.html">
                             Expand Bubbles by Mouse-On
                         </a>
                     </li>
                     <li>
                         <em>Simulation:</em>{" "}
-                        <a href="../bubble_gravity/bubble_gravity.html">
+                        <a href="../BubbleGrabityDrops/bubble_gravity.html">
                             Gravity
                         </a>
                     </li>
                     <li>
                         <em>Simulation:</em>{" "}
-                        <a href="../firework/firework.html">Firework</a>
+                        <a href="../FireworksDemo/firework.html">Firework</a>
                     </li>
                 </ul>
             </div>
