@@ -1,4 +1,4 @@
-const frameheight = 200;
+const frameheight = 150;
 const maxRadius = 40;
 const minRadius = 2;
 
