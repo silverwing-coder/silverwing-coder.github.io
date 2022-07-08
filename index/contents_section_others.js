@@ -157,7 +157,10 @@ function WorkingProject_Section() {
                 <ul>
                     <li>
                         <em>Algorithm Demo:</em>{" "}
-                        <a href="../a_star/a_star.html">A-star Path Finder</a>
+                        {/* <a href="../a_star/a_star.html">A-star Path Finder</a>  */}
+                        <a href="https://github.com/silverwing-coder/WebApplications/blob/master/AstarAlgorithm/a_star.html">
+                            A-star Path Finder
+                        </a>
                     </li>
                     <li>
                         <em>Algorithm Demo:</em>{" "}
