@@ -66,18 +66,19 @@ function Experience_Section() {
                 comment2="Supervision: Cybersecurity / Electronic Warfare Systems R&D and Procurement"
             />
             <EdEx_content
+                year="Dec. 2013 ~ Dec. 2015"
+                title="Inspector General /Group Commander"
+                place="xx Tactical Training Wing, Republic of Korea Air Force"
+                comment1="Command & Supervision: Flight Safety, Base Protection and Security"
+            />
+            <EdEx_content
                 year="Dec. 2010 ~ Dec. 2012"
                 title="Director, Information Systems Management Branch"
                 place="HQ's of Republic of Korea Air Force, Kyeryong-City, Korea"
                 comment1="Operaton and Management: ROKAF C4I Systems"
                 comment2="Supervision: C4I Systems R&D and Procurement"
             />
-            <EdEx_content
-                year="Dec. 2015 ~ Dec. 2013"
-                title="Inspector General /Group Commander"
-                place="xx Tactical Training Wing, Republic of Korea Air Force"
-                comment1="Command & Supervision: Flight Safety, Base Protection and Security"
-            />
+
             <EdEx_content
                 year="Mar. 1990 ~ Jun. 2000"
                 title="Pilot"
