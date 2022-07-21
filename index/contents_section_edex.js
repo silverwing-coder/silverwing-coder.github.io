@@ -18,7 +18,9 @@ const EdEx_content = function content_education_experience(props) {
 function Education_Section() {
     return (
         <div>
-            <h2 className="sub-title" id="edu-sub-title">Education</h2>
+            <h2 className="sub-title" id="edu-sub-title">
+                Education
+            </h2>
             <EdEx_content
                 year="Aug. 2010"
                 title="Ph.D. in Computer Science & Engineering"
@@ -45,7 +47,9 @@ function Education_Section() {
 function Experience_Section() {
     return (
         <div>
-            <h2 className="sub-title" id="experience-sub-title">Experiences</h2>
+            <h2 className="sub-title" id="experience-sub-title">
+                Experiences
+            </h2>
             <EdEx_content
                 year="Mar. 2021 ~ Present"
                 title="Assist. Professor"
@@ -66,17 +70,17 @@ function Experience_Section() {
                 comment2="Supervision: Cybersecurity / Electronic Warfare Systems R&D and Procurement"
             />
             <EdEx_content
+                year="Dec. 2013 ~ Dec. 2015"
+                title="Inspector General /Group Commander"
+                place="xx Tactical Training Wing, Republic of Korea Air Force"
+                comment1="Command & Supervision: Flight Safety, Base Protection and Security"
+            />
+            <EdEx_content
                 year="Dec. 2010 ~ Dec. 2012"
                 title="Director, Information Systems Management Branch"
                 place="HQ's of Republic of Korea Air Force, Kyeryong-City, Korea"
                 comment1="Operaton and Management: ROKAF C4I Systems"
                 comment2="Supervision: C4I Systems R&D and Procurement"
-            />
-            <EdEx_content
-                year="Dec. 2015 ~ Dec. 2013"
-                title="Inspector General /Group Commander"
-                place="xx Tactical Training Wing, Republic of Korea Air Force"
-                comment1="Command & Supervision: Flight Safety, Base Protection and Security"
             />
             <EdEx_content
                 year="Mar. 1990 ~ Jun. 2000"
