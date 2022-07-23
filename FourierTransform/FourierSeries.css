@@ -1,0 +1,18 @@
+canvas {
+    border-style: solid;
+    border-color:yellowgreen;
+    border-width: 5px
+};
+
+button {
+    width:100px;
+    height:30px;
+    background: chocolate;
+}
+
+/* #input-parent {
+    width: 300px;
+    border-style: solid;
+    border-color:yellowgreen;
+    border-width: 5px
+} */

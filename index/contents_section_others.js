@@ -204,6 +204,12 @@ function WorkingProject_Section() {
                         </a>
                     </li>
                     <li>
+                        <em>Algorithm Demo:</em>
+                        <a href="../FourierTransform/FourierSeries.html">
+                            Fourier Series
+                        </a>
+                    </li>
+                    <li>
                         <em>Game:</em>
                         <a href="../SnakeFoodGame/snake_eat_food.html">
                             Snake Take Food
@@ -236,6 +242,12 @@ function WorkingProject_Section() {
                     <li>
                         <em>Simulation:</em>{" "}
                         <a href="../FireworksDemo/firework.html">Firework</a>
+                    </li>
+                    <li>
+                        <em>Simulation:</em>{" "}
+                        <a href="../Fractals/RecursiveTree.html">
+                            Fractral Tree-1
+                        </a>
                     </li>
                 </ul>
             </div>
