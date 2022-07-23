@@ -41,6 +41,7 @@ function setup() {
 }
 
 function draw() {
+    console.log("test");
     background(0);
     translate(150, 250);
 

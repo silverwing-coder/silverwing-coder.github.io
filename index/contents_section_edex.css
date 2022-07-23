@@ -1,36 +1,45 @@
-.content-section {
+/* .content-section {
     color: blue;
-}
+} */
 
 .edex-content {
-    display: flex;
+    /* display: flex; */
+    font-size: medium;
+    
 }
 .edex-year {
-    width: 250px;
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
     /* background-color: aquamarine; */
     color:darkblue;
-    font-size: 19px;
+    font-size: large;
     font-weight: bolder;
 }
 .edex-comments {
+    margin-top: -10px;
     width: 100%;
-    padding-left: 30px;
-    font-size: 18px;
+    padding-left: 100px;
+    font-size: medium;
     color: blue;
     font-family: Georgia, "Times New Roman", Times, serif;
-    /* font-variant: small-caps; */
+    font-variant: small-caps;
     /* background-color: antiquewhite; */
 }
 .edex-title {
-    font-size: 19px;
+    margin-top: -10px;
+    padding-top: -10px;
+    /* font-size: large; */
     font-weight: bolder;
 
 }
 .edex-place {
+    margin-top: -12px;
     font-style:oblique;
     color:blueviolet;
 }
 .edex-comment {
+    margin-top: -12px;
     color: olive;
     font-variant: normal;
 }

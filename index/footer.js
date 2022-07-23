@@ -9,10 +9,10 @@ function Footer() {
                     width="40px"
                 ></img>
             </a>
-            <h3 className="footer-comment">
+            <h4 className="footer-comment">
                 This page is developed on JavaScript React library.{" "}
-            </h3>
-            <h3 className="footer-comment">Last update: June. 2022</h3>
+            </h4>
+            <h3 className="footer-comment">Last update: July. 2022</h3>
         </footer>
     );
 }

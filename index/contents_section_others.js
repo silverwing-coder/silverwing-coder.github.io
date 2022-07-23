@@ -1,63 +1,62 @@
 function AboutMe_Section() {
     return (
         <div>
-            <h2 className="sub-title" id="aboutme-sub-title">
-                About Me.{" "}
-            </h2>
             <div className="about-me-content">
-                <img src="../images/my_photoa.png"></img>
-                <p>
-                    <h3 id="my-name">Sangmork "SAM" Park</h3>
-                    <p id="my-position">
+                <figure>
+                    <img src="../images/my_photoa.png"></img>
+                    <figcaption id="my-position">
                         Assistant Prof. Computer/Information Science <br />
                         School of Arts and Sciences, Carolina University
-                        <br />
-                    </p>
-                    <p>
-                        <h3 id="welcome-subtitle"> Welcome ! </h3>
-                        Working in a University for students who have limitless
-                        potential energy is always a rewarding mission. <br />I
-                        made a professional transition from the military to the
-                        academic community in 2021 after completing 35 years of
-                        service. The experiences in the military society allowed
-                        me invaluable opportunities of learning how to share the
-                        sense of common goal awareness along with supportive
-                        fellowships and to inspire colleagues and subordinates
-                        to pursue the common goals. <br />
-                        There are many differences between the military and
-                        academia, and the biggest one I have noticed is the
-                        autonomy of the individuals. <br />
-                        All the students entering a university have their
-                        personal goals and enthusiasm for studying a specific
-                        field. However, some students lose interest in their
-                        goals and enthusiasm when they have minor trouble in
-                        following classes or when they encounter difficult
-                        problems to solve. <br /> It is one of the most
-                        important roles and missions for a teacher to make
-                        students keep their strong sense of goal awareness and
-                        to maintain support fellowships with them. Computer
-                        Science is a challenging subject. However, it is a
-                        worthy course to invest your time, effort, and
-                        enthusiasm for your future following
-                        <a
-                            href="https://www.youtube.com/watch?v=6XvmhE1J9PY"
-                            id="barack-obama-words"
-                        >
-                            President Barack Obama’s words.{" "}
-                        </a>
-                    </p>
+                    </figcaption>
+                </figure>
+                <div>
+                    {/* <p id="my-position">
+                    Assistant Prof. Computer/Information Science <br />
+                    School of Arts and Sciences, Carolina University
+                </p> */}
+                </div>
+
+                <p id="greetings">
+                    I made a professional transition from the military to the
+                    academic community in 2021 after completing 35 years of
+                    service. The experiences in the military allowed me
+                    invaluable opportunities of learning how to share the sense
+                    of common goal awareness and supportive fellowships, and to
+                    motivate colleagues to pursue the common goals. Working in a
+                    University for students who have limitless potential is
+                    always a rewarding mission. Students start their journey to
+                    a university with expectations and enthusiasm. However, some
+                    students lose interest when they feel difficult in following
+                    classes or when they encounter personal issues. It is one of
+                    the most important roles and missions for a teacher to make
+                    students keep their strong sense of goal awareness and to
+                    maintain supportive fellowships.
+                    <br /> Computer Science is a challenging subject. However,
+                    it is a worthy course to invest your time, effort, and
+                    enthusiasm for your future.
+                    <br />
+                    <br />
+                    <a
+                        href="https://www.youtube.com/watch?v=6XvmhE1J9PY"
+                        id="barack-obama-words"
+                    >
+                        President Barack Obama’s words.{" "}
+                    </a>
                 </p>
             </div>
+
+            {/* <div className="about-me-content"> */}
+            {/* <div > */}
             <div className="about-me-content">
                 <p>
-                    <h3 id="welcome-subtitle">Research Interest</h3>I possess
-                    diverse research experiences and backgrounds in different
-                    fields such as cybersecurity, systems engineering, computer
-                    vision, machine learning, and data science in accordance
-                    with my Master’s and Ph.D. program, experiences in the
-                    Military, and personal interests. The roles I went through
-                    for the research programs include research engineer, project
-                    manager, and project supervisor. <br />
+                    <h3>Research Interest</h3>I possess diverse research
+                    experiences and backgrounds in different fields such as
+                    cybersecurity, systems engineering, computer vision, machine
+                    learning, and data science in accordance with my Master’s
+                    and Ph.D. program, experiences in the Military, and personal
+                    interests. The roles I went through for the research
+                    programs include research engineer, project manager, and
+                    project supervisor. <br />
                     Currently, I am focusing on automatic target recognition and
                     tracking system development through the analysis of
                     different image sources by employing machine learning tools,
@@ -70,29 +69,17 @@ function AboutMe_Section() {
                     employing JavaScript libraries such as P5 and React etc.
                 </p>
             </div>
+            {/* </div> */}
         </div>
     );
 }
-// function ResearchInterest_Section() {
-//     return (
-//         <div>
-//             <h2 className="sub-title">Research Interest </h2>
-//             <p>I am me</p>
-//             <ul>
-//                 <li>A</li>
-//                 <li>B/</li>
-//                 <li>C</li>
-//             </ul>
-//         </div>
-//     );
-// }
 
 function Skills_Section() {
     return (
-        <div>
-            <h2 className="sub-title" id="skills-sub-title">
+        <div className="section-skills">
+            <h3 className="sub-title" id="skills-sub-title">
                 Skills
-            </h2>
+            </h3>
             <div className="section-skills-content">
                 <p className="skill-field">Certification</p>
                 <ul>
@@ -251,35 +238,14 @@ function WorkingProject_Section() {
                     </li>
                 </ul>
             </div>
-            {/* <div className="section-skills-content">
-                <p className="skill-field">Python Programming</p>
-                <ul>
-                    <li>
-                        <em>Algorithm Demo:</em>
-                        <a href="https://github.com/silverwing-coder/Python3-Projects/releases">
-                            Salesman Travel
-                        </a>
-                    </li>
-                </ul>
-            </div> */}
-            {/* <div className="section-skills-content">
-                <p className="skill-field">Java Programming</p>
-                <ul>
-                    <li>
-                        <em>Game:</em>{" "}
-                        <a href="https://github.com/silverwing-coder/Java-Projects/releases">
-                            Bricks Breaker
-                        </a>
-                    </li>
-                </ul>
-            </div> */}
+
         </div>
     );
 }
 
 function Courses_Section() {
     return (
-        <div>
+        <div className="section-courses">
             <h2 className="sub-title" id="courses-sub-title">
                 Courses Teaching / Taught
             </h2>
@@ -322,7 +288,7 @@ function Courses_Section() {
 
 function Publications_Section() {
     return (
-        <div>
+        <div className="section-publication">
             <h2 className="sub-title" id="publications-sub-title">
                 Published Book{" "}
             </h2>

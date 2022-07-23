@@ -1,7 +1,8 @@
 
 footer {
-    background: lightyellow;
+    background: lightskyblue;
     border-radius: 5px;
+    border-color:blue;
     position: relative;
 
     display: flex;

@@ -1,4 +1,4 @@
-const frameheight = 150;
+const frameheight = 100;
 const maxRadius = 40;
 const minRadius = 2;
 
@@ -7,6 +7,10 @@ canvas.width = window.innerWidth - 40;
 canvas.height = frameheight;
 
 let ctx = canvas.getContext("2d");
+// ctx.font = "50px Arial";
+// ctx.fillStyle = "darkgray";
+// ctx.textAlign = "center";
+// ctx.fillText("Welcome!", canvas.width / 2, canvas.height / 2);
 
 let mouse = {
     x: undefined,
@@ -102,6 +106,11 @@ function animate() {
     for (let i = 0; i < circleArray.length; i++) {
         circleArray[i].update();
     }
+
+    ctx.font = "45px Sans";
+    ctx.fillStyle = "#336600";
+    ctx.textAlign = "center";
+    ctx.fillText("WELCOME TO MY BASE !", canvas.width / 2, canvas.height*2 / 3);
 }
 
 init();

@@ -18,9 +18,9 @@ const EdEx_content = function content_education_experience(props) {
 function Education_Section() {
     return (
         <div>
-            <h2 className="sub-title" id="edu-sub-title">
+            <h4 className="sub-title" id="edu-sub-title">
                 Education
-            </h2>
+            </h4>
             <EdEx_content
                 year="Aug. 2010"
                 title="Ph.D. in Computer Science & Engineering"
@@ -47,9 +47,9 @@ function Education_Section() {
 function Experience_Section() {
     return (
         <div>
-            <h2 className="sub-title" id="experience-sub-title">
+            <h4 className="sub-title" id="experience-sub-title">
                 Experiences
-            </h2>
+            </h4>
             <EdEx_content
                 year="Mar. 2021 ~ Present"
                 title="Assist. Professor"
