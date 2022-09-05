@@ -256,6 +256,11 @@ function Courses_Section() {
                     </a>
                 </li>
                 <li>
+                    <a href="https://github.com/silverwing-coder/Cybersecurity/tree/master/CS435%24EthicalHacking">
+                        CS-435: Ethical Hacking
+                    </a>
+                </li>
+                <li>
                     <a href="https://github.com/silverwing-coder/Cybersecurity">
                         IS-222: Cybersecurity Fundamentals
                     </a>
