@@ -238,7 +238,6 @@ function WorkingProject_Section() {
                     </li>
                 </ul>
             </div>
-
         </div>
     );
 }
@@ -251,12 +250,12 @@ function Courses_Section() {
             </h2>
             <ul className="section-courses-content">
                 <li>
-                    <a href="https://github.com/silverwing-coder/AlgorithmsDataStrucutire">
+                    <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure">
                         CS-210/310: Algorithms and Data Structures I / II
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/Cybersecurity/tree/master/CS435%24EthicalHacking">
+                    <a href="https://github.com/silverwing-coder/Cybersecurity">
                         CS-435: Ethical Hacking
                     </a>
                 </li>
@@ -266,12 +265,12 @@ function Courses_Section() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/DroneProgramming">
+                    <a href="https://github.com/silverwing-coder/DroneControl">
                         IS-210: Intro. to Drone Programming
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/PythonProgramming">
+                    <a href="https://github.com/silverwing-coder/ComputerProgramming">
                         IS-370: Python Programming
                     </a>
                 </li>
@@ -281,7 +280,7 @@ function Courses_Section() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/MIS">
+                    <a href="https://github.com/silverwing-coder/BusinessInformatics">
                         MG-245: Management of Information Systems{" "}
                     </a>
                 </li>
