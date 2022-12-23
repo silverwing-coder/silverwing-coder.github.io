@@ -250,37 +250,48 @@ function Courses_Section() {
             </h2>
             <ul className="section-courses-content">
                 <li>
-                    <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure">
-                        CS-210/310: Algorithms and Data Structures I / II
+                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CS110$Programming-1(C&C++)">
+                        CS-110: Programming-1 (C/C++)
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/Cybersecurity">
-                        CS-435: Ethical Hacking
+                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CS111%24Programming-2(C++)">
+                        CS-111: Programming-2 (C++)
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/Cybersecurity">
-                        IS-222: Cybersecurity Fundamentals
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/silverwing-coder/DroneControl">
-                        IS-210: Intro. to Drone Programming
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/silverwing-coder/ComputerProgramming">
+                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/IS370$PythonProgramming">
                         IS-370: Python Programming
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/DataScience">
+                    <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure">
+                        CS-210/310: Algorithms and Data Structures-1 / 2
+                        (C++/Java)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/silverwing-coder/Cybersecurity/tree/master/IS222$CybersecurityFundamentals">
+                        IS-222: Cybersecurity Fundamentals
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/silverwing-coder/Cybersecurity/tree/master/CS435$EthicalHacking">
+                        CS-435: Ethical Hacking
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/silverwing-coder/DroneControl/tree/master/IS210$DroneProgramming">
+                        IS-210: Intro. to Drone Programming
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/silverwing-coder/DataScience/tree/master/DCS510$FoundationsOfDataScienceInR">
                         DCS-510: Foundations of Data Science
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/BusinessInformatics">
+                    <a href="https://github.com/silverwing-coder/BusinessInformatics/tree/master/BUS510$MIS">
                         MG-245: Management of Information Systems{" "}
                     </a>
                 </li>
