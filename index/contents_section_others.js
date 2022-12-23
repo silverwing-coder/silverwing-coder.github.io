@@ -250,6 +250,11 @@ function Courses_Section() {
             </h2>
             <ul className="section-courses-content">
                 <li>
+                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CS105$IntroToComputerScience">
+                        CS-105: Introduction to Computer Science
+                    </a>
+                </li>
+                <li>
                     <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CS110$Programming-1(C&C++)">
                         CS-110: Programming-1 (C/C++)
                     </a>
