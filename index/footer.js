@@ -12,7 +12,7 @@ function Footer() {
             <h4 className="footer-comment">
                 This page is developed on JavaScript React library.{" "}
             </h4>
-            <h3 className="footer-comment">Last update: July. 2022</h3>
+            <h3 className="footer-comment">Last update: December. 2022</h3>
         </footer>
     );
 }
