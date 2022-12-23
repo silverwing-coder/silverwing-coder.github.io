@@ -265,9 +265,13 @@ function Courses_Section() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure">
-                        CS-210/310: Algorithms and Data Structures-1 / 2
-                        (C++/Java)
+                    <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure/tree/master/CS210$AlgorithmsDataStructure-1">
+                        CS-210: Algorithms and Data Structures-1 (C++/Java)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure/tree/master/CS310$AlgorithmsDataStructure-2">
+                        CS-310: Algorithms and Data Structures-2 (C++/Java)
                     </a>
                 </li>
                 <li>
