@@ -83,6 +83,11 @@ function Skills_Section() {
             <div className="section-skills-content">
                 <p className="skill-field">Certification</p>
                 <ul>
+                    <li>COMPTIA PenTest+</li>
+                    <li>CompTIA Security+</li>
+                    <li>
+                        CompTIA Network Vulnerability Assessment Professional
+                    </li>
                     <li>
                         AWS CCP : Amazon Web Service Certified Cloud
                         Practictioner
