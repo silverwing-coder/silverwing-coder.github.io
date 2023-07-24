@@ -148,6 +148,12 @@ function WorkingProject_Section() {
                 <p className="skill-field">Web Programming</p>
                 <ul>
                     <li>
+                        <em>Machine Learning Demo:</em>{" "}
+                        <a href="../MediaPipe1/index.html">
+                            MediaPipe Facemesh and Hands
+                        </a>
+                    </li>
+                    <li>
                         <em>Algorithm Demo:</em>{" "}
                         <a href="../AstarAlgorithm/a_star.html">
                             A-star Path Finder
