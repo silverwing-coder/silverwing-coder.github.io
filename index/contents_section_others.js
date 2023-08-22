@@ -249,7 +249,7 @@ function Courses_Section() {
     return (
         <div className="section-courses">
             <h2 className="sub-title" id="courses-sub-title">
-                Courses Teaching / Taught at VMI
+                Courses Teaching / Taught at Virginia Military Institute
             </h2>
             <ul className="section-courses-content">
                 <li>
