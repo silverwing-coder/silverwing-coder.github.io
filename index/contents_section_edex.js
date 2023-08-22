@@ -15,35 +15,6 @@ const EdEx_content = function content_education_experience(props) {
     );
 };
 
-function Education_Section() {
-    return (
-        <div>
-            <h4 className="sub-title" id="edu-sub-title">
-                Education
-            </h4>
-            <EdEx_content
-                year="Aug. 2010"
-                title="Ph.D. in Computer Science & Engineering"
-                place="Wright State University, Dayton, OH."
-                comment1="Dissertation: Privacy-Preserving Attribute-Based Access Control in a Grid. "
-                comment2="Advisor: Soon M. Chung"
-            />
-            <EdEx_content
-                year="Sep. 2002"
-                title="M.S. in Systems Engineering"
-                place="Air Force Institute of Technology(Wright-Patt AFB), Dayton, OH."
-                comment1="Dissertation: Privacy-Preserving Attribute-Based Access Control in a Grid. "
-                comment2="Advisor: David R. Jacques"
-            />
-            <EdEx_content
-                year="Mar. 1990"
-                title="B.S. in Aeroanutical Engineering"
-                place="Air Force Academy, Republic of Korea"
-            />
-        </div>
-    );
-}
-
 function Experience_Section() {
     return (
         <div>
@@ -51,16 +22,19 @@ function Experience_Section() {
                 Experiences
             </h4>
             <EdEx_content
-                year="Mar. 2021 ~ Present"
-                title="Assist. Professor"
+                year="Aug. 2023 ~ Present"
+                title="Assistant Professor"
+                place="Department of Computer/Informatin Science, Virginia Military Institute, Lexington, VA"
+            />
+            <EdEx_content
+                year="Mar. 2021 ~ Jul. 2023"
+                title="Assistant Professor"
                 place="School of Art and Science, Carolina University, Winston-Salem, NC"
-                comment1="Cyber Security, Programming Languages, Drone Fundamentas, etc."
             />
             <EdEx_content
                 year="Jul. 2018 ~ Feb. 2021"
                 title="Air Force Attache'"
                 place="Office of Defense Attache', Embassy of Republic of Korea, Washington D.C."
-                comment1="Military Diplomatic Mission"
             />
             <EdEx_content
                 year="Dec. 2015 ~ Jan. 2018"
@@ -87,6 +61,35 @@ function Experience_Section() {
                 title="Pilot"
                 place="xx Tactical Fighter Wing, Republic of Korea Air Force"
                 comment1="F-4, F-5, T-50, A/T-37, T-41"
+            />
+        </div>
+    );
+}
+
+function Education_Section() {
+    return (
+        <div>
+            <h4 className="sub-title" id="edu-sub-title">
+                Education
+            </h4>
+            <EdEx_content
+                year="Aug. 2010"
+                title="Ph.D. in Computer Science & Engineering"
+                place="Wright State University, Dayton, OH."
+                comment1="Dissertation: Privacy-Preserving Attribute-Based Access Control in a Grid. "
+                comment2="Advisor: Soon M. Chung"
+            />
+            <EdEx_content
+                year="Sep. 2002"
+                title="M.S. in Systems Engineering"
+                place="Air Force Institute of Technology(Wright-Patt AFB), Dayton, OH."
+                comment1="Dissertation: Privacy-Preserving Attribute-Based Access Control in a Grid. "
+                comment2="Advisor: David R. Jacques"
+            />
+            <EdEx_content
+                year="Mar. 1990"
+                title="B.S. in Aeroanutical Engineering"
+                place="Air Force Academy, Republic of Korea"
             />
         </div>
     );

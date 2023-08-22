@@ -3,8 +3,8 @@ function Contents() {
         <div id="contents">
             <AboutMe_Section />
             {/* <ResearchInterest_Section /> */}
-            <Education_Section />
             <Experience_Section />
+            <Education_Section />
             <Skills_Section />
             <Courses_Section />
             <Publications_Section />

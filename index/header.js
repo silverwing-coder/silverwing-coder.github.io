@@ -33,13 +33,13 @@ function Header() {
                         src="../../images/icn-address.gif"
                         alt="address"
                     />
-                    3706 Whitley Ct., Greensboro, NC, 27407. <br />
+                    316 Mallory Hall, VMI, Lexington, VA 24450 <br />
                     <img
                         className="icon-img"
                         src="../../images/icn-email.gif"
                         alt="email"
                     />
-                    sangmork.park@gmail.com, parksm@carolinau.edu
+                    sangmork.park@gmail.com, park@vmi.edu
                     <br />
                     <img
                         className="icon-img"

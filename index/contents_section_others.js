@@ -3,10 +3,12 @@ function AboutMe_Section() {
         <div>
             <div className="about-me-content">
                 <figure>
-                    <img src="../images/my_photoa.png"></img>
+                    <img src="../images/my_photob.png"></img>
                     <figcaption id="my-position">
-                        Assistant Prof. Computer/Information Science <br />
-                        School of Arts and Sciences, Carolina University
+                        {/* Assistant Professor
+                        <br /> */}
+                        Departemtn of Computer/Information Science <br />
+                        Virginia Military Institute, Lexington, VA
                     </figcaption>
                 </figure>
                 <div>
@@ -17,23 +19,23 @@ function AboutMe_Section() {
                 </div>
 
                 <p id="greetings">
-                    I made a professional transition from the military to the
-                    academic community in 2021 after completing 35 years of
-                    service. The experiences in the military allowed me
-                    invaluable opportunities of learning how to share the sense
-                    of common goal awareness and supportive fellowships, and to
-                    motivate colleagues to pursue the common goals. Working in a
-                    University for students who have limitless potential is
-                    always a rewarding mission. Students start their journey to
-                    a university with expectations and enthusiasm. However, some
-                    students lose interest when they feel difficult in following
-                    classes or when they encounter personal issues. It is one of
-                    the most important roles and missions for a teacher to make
-                    students keep their strong sense of goal awareness and to
-                    maintain supportive fellowships.
-                    <br /> Computer Science is a challenging subject. However,
-                    it is a worthy course to invest your time, effort, and
-                    enthusiasm for your future.
+                    I finished my 35 years of service in the military in 2021
+                    and transitioned professionally from the military to
+                    academia. My military experiences have taught me the value
+                    of supporting communities and fostering mutual understanding
+                    and goal sharing. <br />
+                    It is always rewarding to work in a university where the
+                    potential of the students is infinite. Students arrive to a
+                    university full of anticipation and passion. However,
+                    students may become disinterested when they find it
+                    challenging to attend subsequent classes or when they
+                    experience personal problems. Making sure that students
+                    retain a strong sense of goal awareness and supportive
+                    relationships with one another is one of a teacher's most
+                    significant tasks and missions. <br />
+                    Computer science is a difficult yet rewarding subject that
+                    has enough value to warrant investing your time, effort, and
+                    excitement for your future.
                     <br />
                     <br />
                     <a
@@ -49,24 +51,14 @@ function AboutMe_Section() {
             {/* <div > */}
             <div className="about-me-content">
                 <p>
-                    <h3>Research Interest</h3>I possess diverse research
-                    experiences and backgrounds in different fields such as
-                    cybersecurity, systems engineering, computer vision, machine
-                    learning, and data science in accordance with my Master’s
-                    and Ph.D. program, experiences in the Military, and personal
-                    interests. The roles I went through for the research
-                    programs include research engineer, project manager, and
-                    project supervisor. <br />
-                    Currently, I am focusing on automatic target recognition and
-                    tracking system development through the analysis of
-                    different image sources by employing machine learning tools,
-                    such as TensorFlow, and object detection models and
-                    libraries such as MediaPipe, Dlib, MobileNets. The
-                    programming languages for this research are Python and
-                    JavaScript. <br /> Another research area I am currently
-                    interested in is web-based simulation system development.
-                    The primary tools for the research are HTML/CSS/JavaScript
-                    employing JavaScript libraries such as P5 and React etc.
+                    <h3>Research Interest</h3>
+                    I have research experiences and backgrounds in different
+                    fields of cybersecurity, systems engineering, computer
+                    vision, machine learning, and data science in accordance
+                    with my Master’s and Ph.D. program, missions in the
+                    Military, and personal interests. The roles I went through
+                    for the research programs include research engineer, project
+                    manager, and project supervisor. <br />
                 </p>
             </div>
             {/* </div> */}
@@ -257,7 +249,18 @@ function Courses_Section() {
     return (
         <div className="section-courses">
             <h2 className="sub-title" id="courses-sub-title">
-                Courses Teaching / Taught
+                Courses Teaching / Taught at VMI
+            </h2>
+            <ul className="section-courses-content">
+                <li>
+                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CIS101$IntroToComputerScience">
+                        CIS-101: Introduction to Computer Science
+                    </a>
+                </li>
+            </ul>
+
+            <h2 className="sub-title" id="courses-sub-title">
+                Courses Teaching / Taught at Carolina University
             </h2>
             <ul className="section-courses-content">
                 <li>

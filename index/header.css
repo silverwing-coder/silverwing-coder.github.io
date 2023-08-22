@@ -9,10 +9,10 @@ header {
     padding-top: 30px;
 }
 
-a:hover {
+/* a:hover {
     color: blue;
     font-size: 102%;
-}
+} */
 
 #title {
     background-color: antiquewhite;
@@ -32,7 +32,7 @@ a:hover {
 }
 .header-button:hover {
     /* color: blueviolet; */
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #header-content {
