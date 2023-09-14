@@ -253,7 +253,7 @@ function Courses_Section() {
             </h2>
             <ul className="section-courses-content">
                 <li>
-                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CIS101$IntroToComputerScience">
+                    <a href="https://github.com/silverwing-coder/ComputerScienceFundamentals/tree/master/CIS101$IntroToComputerScience">
                         CIS-101: Introduction to Computer Science
                     </a>
                 </li>
@@ -264,7 +264,7 @@ function Courses_Section() {
             </h2>
             <ul className="section-courses-content">
                 <li>
-                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CS105$IntroToComputerScience">
+                    <a href="https://github.com/silverwing-coder/ComputerScienceFundamentals/tree/master/CS105$IntroToComputerScience">
                         CS-105: Introduction to Computer Science
                     </a>
                 </li>
