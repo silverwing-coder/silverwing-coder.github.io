@@ -1,5 +1,5 @@
-let WIDTH = 1280,
-    HEIGHT = 960;
+let WIDTH = 640,
+    HEIGHT = 480;
 
 const videoElement = document.getElementById("video");
 const canvasElement = document.getElementById("canvas");
