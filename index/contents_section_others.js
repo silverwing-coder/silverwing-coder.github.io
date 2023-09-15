@@ -146,6 +146,12 @@ function WorkingProject_Section() {
                         </a>
                     </li>
                     <li>
+                        <em>Machine Learning Demo:</em>{" "}
+                        <a href="../PoseNet1/index.html">
+                            PoseNet - Pose Estimation
+                        </a>
+                    </li>
+                    <li>
                         <em>Algorithm Demo:</em>{" "}
                         <a href="../AstarAlgorithm/a_star.html">
                             A-star Path Finder
