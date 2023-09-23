@@ -1,4 +1,4 @@
-let winWidth = 400;
+let winWidth = 600;
 let winHeight = 600;
 let fireballs = [];
 let debris = [];
@@ -22,7 +22,7 @@ function draw() {
 
     for (let i = fireballs.length - 1; i >= 0; i--) {
         if (fireballs[i].velocity.y >= 0) {
-            for (let j = 0; j < 200; j++) {
+            for (let j = 0; j < 120; j++) {
                 debris.push(
                     new Particle(
                         fireballs[i].position.x,
@@ -40,7 +40,10 @@ function draw() {
             fireballs[i].update();
             fireballs[i].show();
         }
+        // console.log(debris.length);
     }
+
+    // console.log(fireballs.length);
 
     for (let i = debris.length - 1; i >= 0; i--) {
         // explosion_force = createVector(0, 0.1);
@@ -53,51 +56,52 @@ function draw() {
             debris[i].show();
         }
     }
+    // console.log(fireballs.length);
 }
 
-class Particle {
-    constructor(x, y, radius, debris, hu) {
-        this.position = createVector(x, y);
-        if (debris) {
-            this.velocity = p5.Vector.random2D();
-            this.velocity.mult(random(1, 6));
-        } else {
-            this.velocity = createVector(0, random(-10, -8));
-        }
-        this.accleration = createVector(0, 0);
-        this.radius = radius;
-        this.lifetime = 255;
-        this.debris = debris;
-        this.hu_Value = hu;
-    }
+// class Particle {
+//     constructor(x, y, radius, debris, hu) {
+//         this.position = createVector(x, y);
+//         if (debris) {
+//             this.velocity = p5.Vector.random2D();
+//             this.velocity.mult(random(1, 6));
+//         } else {
+//             this.velocity = createVector(0, random(-10, -8));
+//         }
+//         this.accleration = createVector(0, 0);
+//         this.radius = radius;
+//         this.lifetime = 255;
+//         this.debris = debris;
+//         this.hu_Value = hu;
+//     }
 
-    applyForce(force) {
-        this.accleration.add(force);
-    }
+//     applyForce(force) {
+//         this.accleration.add(force);
+//     }
 
-    show() {
-        colorMode(HSB);
-        if (this.debris) {
-            stroke(this.hu_Value, 255, 255, this.lifetime);
-            strokeWeight(3);
-            fill(255, this.lifetime);
-            ellipse(this.position.x, this.position.y, this.radius);
-        } else {
-            stroke(this.hu_Value, 255, 255);
-            strokeWeight(4);
-            fill(255);
-            ellipse(this.position.x, this.position.y, this.radius);
-        }
-        // this.lifetime -= this.lifetime;
-    }
+//     show() {
+//         colorMode(HSB);
+//         if (this.debris) {
+//             stroke(this.hu_Value, 255, 255, this.lifetime);
+//             strokeWeight(3);
+//             fill(255, this.lifetime);
+//             ellipse(this.position.x, this.position.y, this.radius);
+//         } else {
+//             stroke(this.hu_Value, 255, 255);
+//             strokeWeight(4);
+//             fill(255);
+//             ellipse(this.position.x, this.position.y, this.radius);
+//         }
+//         // this.lifetime -= this.lifetime;
+//     }
 
-    update() {
-        this.lifetime -= random(0, 5);
-        this.velocity.add(this.accleration);
-        if (this.debris) {
-            this.velocity.mult(0.97);
-        }
-        this.position.add(this.velocity);
-        this.accleration.mult(0);
-    }
-}
+//     update() {
+//         this.lifetime -= random(0, 5);
+//         this.velocity.add(this.accleration);
+//         if (this.debris) {
+//             this.velocity.mult(0.97);
+//         }
+//         this.position.add(this.velocity);
+//         this.accleration.mult(0);
+//     }
+// }
