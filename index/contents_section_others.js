@@ -261,7 +261,7 @@ function Courses_Section() {
     return (
         <div className="section-courses">
             <h2 className="sub-title" id="courses-sub-title">
-                Courses Teaching / Taught at Virginia Military Institute
+                Teaching: Virginia Military Institute
             </h2>
             <ul className="section-courses-content">
                 <li>
@@ -269,10 +269,15 @@ function Courses_Section() {
                         CIS-101: Introduction to Computer Science
                     </a>
                 </li>
+                <li>
+                    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CIS112%24Programming-2(Java)">
+                        CIS-112: Programming - II (Java)
+                    </a>
+                </li>
             </ul>
 
             <h2 className="sub-title" id="courses-sub-title">
-                Courses Teaching / Taught at Carolina University
+                Teaching: Carolina University
             </h2>
             <ul className="section-courses-content">
                 <li>
@@ -339,7 +344,7 @@ function Courses_Section() {
 function Publications_Section() {
     return (
         <div className="section-publication">
-            <h2 className="sub-title" id="publications-sub-title">
+            {/* <h2 className="sub-title" id="publications-sub-title">
                 Published Book{" "}
             </h2>
             <ul className="section-publication-content">
@@ -348,7 +353,7 @@ function Publications_Section() {
                     Autonomous Wide Area Search Munitions." BiblioBazaar, Nov.
                     2012, <em>ISBN: 128828604X, ISBN13: 9781288286041.</em>
                 </li>
-            </ul>
+            </ul> */}
             <h2 className="sub-title" id="publications-sub-title">
                 Publications / Presentations{" "}
             </h2>
