@@ -1,8 +1,8 @@
 let WIDTH = 640,
     HEIGHT = 480;
 
-const videoElement = document.getElementById("video");
-const canvasElement = document.getElementById("canvas");
+const videoElement = document.getElementById("video-1");
+// const canvasElement = document.getElementById("canvas");
 
 function settings() {}
 
@@ -11,7 +11,7 @@ function setup() {
     video = createCapture(VIDEO);
     video.size(WIDTH, HEIGHT);
     video.hide();
-    canvas.id("canvas");
+    canvas.id("canvas-1");
 
     const camera = new Camera(videoElement, {
         onFrame: async () => {
@@ -22,14 +22,15 @@ function setup() {
         height: HEIGHT,
     });
     camera.start();
+    // videoElement.hide();
 }
 
 function draw() {
-    clear();
 
     translate(video.width, 0);
     scale(-1, 1);
-    // console.log(faces.multiFaceLandmarks);
+    // clear();
+    // background(50)
     image(video, 0, 0);
 
     if (faces != undefined) {

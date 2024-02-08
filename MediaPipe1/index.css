@@ -1,13 +1,41 @@
-#canvas{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    /* z-index: 1; */
+
+#canvas-1{
+    padding: 20px;
+    margin-left: 20px;
+    border-color: black;
+    border-width: 5px;
 }
 
-#video{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    /* z-index: 0; */
+.p5Canvas{
+    padding: 20px;
+    margin-left: 20px;
+    border-color: black;
+    border-width: 5px;
 }
+
+main{
+    align-items: center;
+}
+#video-1{
+    display: none;
+}
+
+.header_container{
+    padding-left: 20px;
+}
+
+.body_container{
+    margin-left: 2opx;
+    height: auto;
+    /* padding: 10px; */
+}
+
+.p5Canvas{
+    border-color: brown;
+    border-width: 2px;
+}
+
+/* canvas{
+    border-color: brown;
+    border-width: 2px;
+} */
