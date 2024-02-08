@@ -1,0 +1,40 @@
+.body_section_container{
+    font-family: 'Times New Roman', Times, serif;
+    width: 1200px;
+    height: auto;
+    border: 2px solid lightblue;
+    /* border-radius: 5px; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    background-color: lightgoldenrodyellow
+}
+
+.flex-item{
+    width: 50%;
+    margin: 3px;
+    border: 1px dashed black;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+    padding-left: 20px;
+    min-height: 1200px;
+}
+
+.first_title{
+    font-style: italic;
+    color: orangered;
+}
+
+.second_title{
+    color: olivedrab;
+    /* text-decoration: underline dotted; */
+}
+
+.teaching_section, .project_section{
+    height: auto
+}
+
+.project_names, .class_names{
+    font-size: large;
+    line-height: 170%;
+}

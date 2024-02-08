@@ -1,43 +1,48 @@
-#root {
-    background-color: rgb(248, 244, 239);
-    line-height: 160%;
-}
+.header_section_container {
+    width: 1200px;
+    padding-top: 3px;
+    border: 2px solid lightsalmon;
+} 
 
-header {
-    border-radius: 10px;
-    border-color: antiquewhite;
-    padding-top: 30px;
-}
-
-/* a:hover {
+a:hover {
     color: blue;
-    font-size: 102%;
-} */
-
-#title {
-    background-color: antiquewhite;
-    width: 560px;
-    padding-left: 3%;
-    font-size: 35px;
-    align-self: center;
-    line-height: 120%;
+    font-size: 105%;
 }
 
+#header-nav-top {
+    padding-left: 1px;
+}
 #header-nav-top > button {
     background-color: antiquewhite;
     height: 40px;
     /* width: 160px; */
-    width: 14.25%;
+    width: 33%;
+    max-width:397px;
+    white-space:nowrap;
     justify-content: space-between;
+    padding-bottom: 3px;
+    font-size: 12x;
+    margin-bottom: 1px;
 }
 .header-button:hover {
     /* color: blueviolet; */
     font-size: 15px;
 }
 
+#my_name {
+    background-color: antiquewhite;
+    width: 500px;
+    padding-left: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    align-self: center;
+    line-height: 120%;
+}
+
 #header-content {
-    height: 275px;
-    width: auto;
+    padding-top: 3px;
+    height: 230px;
+    width: 1200px;
     background-image: url("../images/my_bg_main_zeke.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
@@ -49,18 +54,18 @@ header {
 }
 
 #header-contact-info {
-    padding-top: 5px;
+    padding-top: 1px;
     /* padding-left: 10px; */
-    padding-right: 5px;
-    color: rgb(249, 253, 23);
-    font: 16px bolder;
+    padding-right: 10px;
+    color: yellow;
+    font: 12px bolder;
     font-family: "Courier New", Courier, monospace;
 }
 
 .icon-img {
     /* padding-right: 10px; */
-    border-radius: 30%;
-    border: 2px solid transparent;
+    /* border-radius: 10%; */
+    border: 1px solid transparent;
     background-image: linear-gradient(#ffff00, #19d7fa),
         radial-gradient(circle at top left, #ffff00, #19d7fa);
     background-origin: border-box;

@@ -2,37 +2,281 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- import CDN libraries -->
-    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <!-- import internal libraries -->
-    <script type="text/babel" src="./index/header.js"></script>
-    <script type="text/babel" src="./index/contents.js"></script>
-    <script type="text/babel" src="./index/contents_section_edex.js"></script>
-    <script type="text/babel" src="./index/contents_section_others.js"></script>
-    <script type="text/babel" src="./index/footer.js"></script>
-    <!-- import styles -->
-    <link rel="stylesheet" href="./index/header.css">
-    <link rel="stylesheet" href="./index/contents.css">
-    <link rel="stylesheet" href="./index/contents_section_edex.css">
-    <link rel="stylesheet" href="./index/contents_section_others.css">
-    <link rel="stylesheet" href="./index/footer.css">
-    <style type="text/css">
-        canvas {
-            border: 2px solid black;
-        }
-    </style>
-    <title>Home of Sangmork "SAM" Park</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./indexFolder/header_section.css">
+    <link rel="stylesheet" href="./indexFolder/body_section.css">
+    <title>HOME OF SILVER-WING CODER</title>
 </head>
 <body>
-    <canvas id="canvas"></canvas>
-    <script type="text/javascript" src="./BubbleSizeChangeByMouse/bubbles.js"></script>
-    <!-- <script type="text/javascript" src="./FourierTransform/FourierHome.js"></script> -->
-    <div id="root"></div>
-    <!-- <script type="text/babel" src="./index/index.js"></script> -->
-    <script type="text/babel" src="./index/index.js"></script>
+    <div class="root_container" id="root">
+        <div id="header_animation">
+            <script src="./FourierTransform/HeaderFourierTransform.js" defer></script>
+        </div>
+
+        <!-- Contents of header section starts here. -->
+        <div class="header_section_container">
+            <!-- <h2>Header_Section</h2> -->
+            <nav id="header-nav-top">
+                <button className="header-button">
+                    <a href="./indexFolder/curriculum_vitae.html">Curriculum Vitae</a>
+                </button>
+                <button className="header-button">
+                    <a href="#courses_teaching">Courses Teaching</a>
+                </button>
+                <button className="header-button">
+                    <a href="#working_projects">Working Projects</a>
+                </button>
+            </nav>
+            
+            <div id="header-content">
+                <h1 id="my_name">Dr. Sangmork "SAM" Park <br/><em>(Asst. Prof. at Virginia Military Institute)</em></h1> 
+                <!-- <h2 id="school">Computer and Information Sciences, VMI. </h2> -->
+                <div id="header-contact-info">
+                    <img
+                        className="icon-img"
+                        src="../../images/icn-address.gif"
+                        alt="address"
+                    />
+                    316 Mallory Hall, VMI, Lexington, VA 24450 <br />
+                    <img
+                        className="icon-img"
+                        src="../../images/icn-email.gif"
+                        alt="email"
+                    />
+                    parks@vmi.edu, sangmork.park@gmail.com
+                    <br />
+                    <img
+                        className="icon-img"
+                        src="../../images/icn-phone.gif"
+                        alt="phone"
+                    />
+                    +1 - 202 - 674 - 0698
+                    <br />
+                </div>
+            </div>
+        
+        </div>
+
+        <!-- Contents of body section starts here. It includes teaching courses and projects playing.-->
+        <div class="body_section_container">
+            <div class="flex-item teaching_section">
+                <h1 class="first_title" id="courses_teaching">
+                    Courses teaching </h1>
+                <h2 class="second_title" id="vmi">Virginia MilitaryImstitute </h2>
+                <div class="class_names">                    
+                    <ul className="section-courses-content">
+                        <li>
+                            <a href="https://github.com/silverwing-coder/ComputerScienceFundamentals/tree/master/CIS101$IntroToComputerScience">
+                                CIS-101: Introduction to Computer Science
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CIS112%24Programming-2(Java)">
+                                CIS-112: Programming - II (Java)
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h2 class="second_title" id="carolina_univsesity">Carolina Universioty </h2>
+                <div class="class_names">
+                    <ul className="section-courses-content">
+                        <li>
+                            <a href="https://github.com/silverwing-coder/ComputerScienceFundamentals/tree/master/CS105$IntroToComputerScience">
+                                CS-105: Introduction to Computer Science
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CS110$Programming-1(C&C++)">
+                                CS-110: Programming-1 (C/C++)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CS111%24Programming-2(C++)">
+                                CS-111: Programming-2 (C++)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/IS370$PythonProgramming">
+                                IS-370: Python Programming
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure/tree/master/CS210$AlgorithmsDataStructure-1">
+                                CS-210: Algorithms and Data Structures-1 (C++/Java)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/AlgorithmsDataStructure/tree/master/CS310$AlgorithmsDataStructure-2">
+                                CS-310: Algorithms and Data Structures-2 (C++/Java)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/Cybersecurity/tree/master/IS222$CybersecurityFundamentals">
+                                IS-222: Cybersecurity Fundamentals
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/Cybersecurity/tree/master/CS435$EthicalHacking">
+                                CS-435: Ethical Hacking
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/DroneControl/tree/master/IS210$DroneProgramming">
+                                IS-210: Intro. to Drone Programming
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/DataScience/tree/master/DCS510$FoundationsOfDataScienceInR">
+                                DCS-510: Foundations of Data Science
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/silverwing-coder/BusinessInformatics/tree/master/BUS510$MIS">
+                                MG-245: Management of Information Systems{" "}
+                            </a>
+                        </li>
+                        <li>IS-1XX: Drone Fundamentals: Remote Pilot Certificate</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class = "flex-item project_section">            
+                <h1 class="first_title" id="working_projects">
+                    Projects playing with ... </h1>
+                <h2 class="second_title" id="web_applications">Web Applications</h2>
+                <div class="project_names">
+                    <ul>
+                        <li>
+                            <em>Machine Learning Demo:</em>
+                            <a href="../MediaPipe1/index.html">
+                                MediaPipe Facemesh and Hands
+                            </a>
+                        </li>
+                        <li>
+                            <em>Machine Learning Demo:</em>
+                            <a href="../PoseNet1/index.html">
+                                PoseNet - Pose Estimation
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../AstarAlgorithm/a_star.html">
+                                A-star Path Finder
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../SortingAlgorithms/sorting_algorithms.html">
+                                Sorting Algorithms
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../BinarySearchTree/binaryTree.html">
+                                Binary Search Tree(DFS)
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../DirectedGraph/graph_BFS.html">
+                                Directed Graph
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../GeneticAlgorithmText/genetic_algorithm.html">
+                                Genetic Algorithm(Text Align)
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../GeneticAlgorithmAnimal/genetic_alogrithm_fish.html">
+                                Genetic Algorithm(Fish Learning)
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../SalesmanTravel/salesman_travel.html">
+                                Salesman Travel
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../LinearRegression/linear_regression.html">
+                                Linear Regression
+                            </a>
+                        </li>
+                        <li>
+                            <em>Algorithm Demo:</em>
+                            <a href="../FourierTransform/FourierSeries.html">
+                                Fourier Series
+                            </a>
+                        </li>
+                        <li>
+                            <em>Game:</em>
+                            <a href="../SnakeFoodGame/snake_eat_food.html">
+                                Snake Take Food
+                            </a>
+                        </li>
+                        <li>
+                            <em>Game:</em>
+                            <a href="../BubbleSplashsByMouse/splash_bubbles.html">
+                                Splash Bubbles
+                            </a>
+                        </li>
+                        <li>
+                            <em>Utility:</em>
+                            <a href="../SimpleCalculator/simple_calculator.html">
+                                Simple Calculator
+                            </a>
+                        </li>
+                        <li>
+                            <em>Simulation:</em>
+                            <a href="../BubbleSizeChangeByMouse/bubble_mouse.html">
+                                Expand Bubbles by Mouse-On
+                            </a>
+                        </li>
+                        <li>
+                            <em>Simulation:</em>
+                            <a href="../BubbleGrabityDrops/bubble_gravity.html">
+                                Gravity
+                            </a>
+                        </li>
+                        <li>
+                            <em>Simulation:</em>
+                            <a href="../FireworksDemo/firework.html">Firework</a>
+                        </li>
+                        <li>
+                            <em>Simulation:</em>
+                            <a href="../Fractals/RecursiveTree.html">
+                                Fractral Tree-1
+                            </a>
+                        </li>
+                        <li>
+                            <em>Simulation:</em>
+                            <a href="../MatterJS1/index.html">
+                                Matter.JS - 1: Boxes and Circles
+                            </a>
+                        </li>
+                    </ul>
+                
+                </div>    
+                <h2 class="second_title" id="jupyter_colab">Jupyter and Google colab on Python3</h2>
+                <div class="project_names">
+                    <ul>
+                        <li>
+                            <em>Under Construction:</em>
+                            <a href="">
+                                Under Construction
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>

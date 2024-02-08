@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header_canvas{
+  border-style: solid;
+  border-color: goldenrod;
+}
