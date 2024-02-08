@@ -36,5 +36,6 @@
 
 .project_names, .class_names{
     font-size: large;
+    font-style: oblique;
     line-height: 170%;
 }
