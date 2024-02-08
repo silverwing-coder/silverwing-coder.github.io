@@ -1,6 +1,10 @@
 body{
-  margin: 0;
+  width: 1205px;
+  margin: 5;
   font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: brown;
+  border-width: 5px;
 }
 
 #header_canvas{

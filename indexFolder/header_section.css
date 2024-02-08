@@ -1,7 +1,7 @@
 .header_section_container {
     width: 1200px;
     padding-top: 3px;
-    border: 2px solid lightsalmon;
+    border: 3px solid orange;
 } 
 
 a:hover {
