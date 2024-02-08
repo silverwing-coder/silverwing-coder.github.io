@@ -81,9 +81,9 @@ function draw() {
     }
 
     translate(-620, -100);
-    fill(255 - mouseX / 5, 255 - mouseY / 2, 255 - mouseY / 5);
+    fill(255 - mouseX / 5, 255 - mouseX / 5, mouseX / 5);
     // if()
-    textSize(30 + mouseX * 0.01);
+    textSize(30);
     text("SILVER-WING-CODER's BASE", 20, 80);
     fill(200, 200, 255);
     textSize(12);
