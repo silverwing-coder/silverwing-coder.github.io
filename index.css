@@ -1,6 +1,7 @@
 body{
   width: 1205px;
-  margin: 1px;
+  /* margin: 1px; */
+  margin:auto;
   font-family: Arial, Helvetica, sans-serif;
   border-style: solid;
   border-color: brown;
@@ -11,3 +12,7 @@ body{
   border-style: solid;
   border-color: goldenrod;
 }
+
+/* .root_container{
+
+} */
